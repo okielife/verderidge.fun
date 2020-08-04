@@ -6,7 +6,7 @@ description: Covering fun neighborhood activities in Verde Ridge, including Neig
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 url: "https://verderidge.fun"
-baseurl: "/verderidge.fun"
+# baseurl: "/verderidge.fun"
 
 permalink: /:title/
 
