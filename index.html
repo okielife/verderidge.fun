@@ -1,0 +1,19 @@
+---
+layout: default
+title: Verde Ridge Olympics
+---
+
+<section id="welcome" class="tm-section">
+  <header>
+    <h2 class="tm-blue-text tm-welcome-title tm-margin-b-45">Welcome to VerdeRidge.fun!</h2>
+  </header>
+  <p>This website shows our fun neighborhood events.</p>
+  <div class="posts">
+    <h2 class="tm-blue-text tm-welcome-title tm-margin-b-45">Events</h2>
+    <ul>
+    {% for post in site.posts %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>

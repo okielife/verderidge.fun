@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<section id="records" class="tm-section">
+    <table class="table table-striped">
+        <tr>
+            <th>Event</th>
+            <th>Olympic Record</th>
+            <th>Neighborhood Record</th>
+        </tr>
+        {% for this_record in site.data.records %}
+        <tr>
+            <td>{{ this_record.event }}</td>
+            {% assign record_event_name = "unknown" %}
+            {% assign record_event_url = "" %}
+            {% for each_event in site.posts %}
+              {% if each_event.event_id == this_record.current_olympic_record_event_id %}
+                {% assign record_event_name = each_event.title %}
+                {% assign record_event_url = each_event.url %}
+              {% endif %}
+            {% endfor %}
+            <td>{{ this_record.current_olympic_record }} <a href="{{ site.baseurl }}{{ record_event_url }}">({{ record_event_name }})</a></td>
+            {% assign record_event_name = "unknown" %}
+            {% for each_event in site.posts %}
+                {% if each_event.event_id == this_record.current_neighborhood_record_event_id %}
+                    {% assign record_event_name = each_event.title %}
+                {% endif %}
+            {% endfor %}
+            <td>{{ this_record.current_neighborhood_record }} <a href="{{ site.baseurl }}{{ record_event_url }}">({{ record_event_name }})</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</section>

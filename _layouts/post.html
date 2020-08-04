@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<section id="galleryone" class="tm-section">
+    <header><h1 class="tm-blue-text tm-margin-b-30">{{ page.title }} ({{ page.date | date_to_string}})</h1></header>
+    {{ content }}
+    <header><h2 class="tm-blue-text tm-margin-b-30">Photo Gallery</h2></header>
+    <div class="tm-gallery-container tm-gallery-1">
+        {% for photo in page.photos %}
+        <div class="tm-img-container tm-img-container-1">
+            <a href="{{ site.baseurl }}/assets/images/{{ photo }}"><img
+                    src="{{ site.baseurl }}/assets/images/{{ photo }}" alt="Image"
+                    class="img-fluid tm-img-tn"></a>
+        </div>
+        {% endfor %}
+    </div>
+</section>

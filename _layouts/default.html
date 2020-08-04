@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/templatemo-style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="tm-left-right-container">
+            <!-- Left column: logo and menu -->
+            <div class="tm-blue-bg tm-left-column">
+                <div class="tm-logo-div text-xs-center">
+                    <img src="{{ site.baseurl }}/assets/images/main_logo.png" alt="Logo"
+                         style="width:100%;height:auto;">
+                    <h1 class="tm-site-name">{{ site.name }}</h1>
+                    <p class="site-description">{{ site.description }}</p>
+                </div>
+                <nav class="tm-main-nav">
+                    <ul class="tm-main-nav-ul">
+                        <li class="tm-nav-item">
+                            <a href="{{ site.baseurl }}/index.html" class="tm-nav-item-link">Home</a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="{{ site.baseurl }}/records/index.html" class="tm-nav-item-link">Records</a>
+                        </li>
+                        <li class="tm-nav-item">
+                            <a href="{{ site.baseurl }}/about/index.html" class="tm-nav-item-link">About Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- Right column: content -->
+            <div class="tm-right-column">
+                <figure>
+                    <img src="{{ site.baseurl }}/assets/images/banner.jpg" alt="Header image" class="img-fluid">
+                </figure>
+                <div class="tm-content-div">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Javascripts -->
+<script src="{{ site.baseurl }}/assets/js/jquery-1.11.3.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/jquery.magnific-popup.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.tm-gallery-1').magnificPopup({
+            delegate: 'a', // child items selector, by clicking on it popup will open
+            type: 'image',
+            gallery: {enabled: true}
+        });
+    });
+</script>
+</body>
+</html>
+

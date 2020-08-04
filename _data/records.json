@@ -1,0 +1,18 @@
+[
+  {
+    "event": "50m",
+    "current_olympic_record": "8:30",
+    "current_olympic_record_event_id": "Olympics2019",
+    "current_neighborhood_record": "8:24",
+    "current_neighborhood_record_event_id": "Olympics2019",
+    "past_records": [ ]
+  },
+  {
+    "event": "100m",
+    "current_olympic_record": "17:32",
+    "current_olympic_record_event_id": "Olympics2019",
+    "current_neighborhood_record": "17:34",
+    "current_neighborhood_record_event_id": "Olympics2019",
+    "past_records": [ ]
+  }
+]
