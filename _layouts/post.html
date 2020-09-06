@@ -4,7 +4,38 @@ layout: default
 
 <section id="galleryone" class="tm-section">
     <header><h1 class="tm-blue-text tm-margin-b-30">{{ page.title }} ({{ page.date | date_to_string}})</h1></header>
-    {{ content }}
+    {{ page.description }}
+
+    <hr>
+
+    This competition, organized by {{ page.organizer }}, included the following events:
+
+    <ul class="list-group">
+        {% for event in page.events %}
+        <li class="list-group-item">{{ event }}</li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
+    Some people attended:
+    <ul class="list-group">
+        {% for attendee in page.attendees %}
+        <li class="list-group-item">{{ attendee }}</li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
+    Interesting things happened:
+    <ul class="list-group">
+        {% for thing in page.interesting_things %}
+        <li class="list-group-item">{{ thing }}</li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+
     <header><h2 class="tm-blue-text tm-margin-b-30">Photo Gallery</h2></header>
     <div class="tm-gallery-container tm-gallery-1">
         {% for photo in page.photos %}

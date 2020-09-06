@@ -23,19 +23,17 @@ photos:
  - "2019/IMG_3349.jpg"
  - "2019/IMG_3351.jpg"
  - "2019/IMG_3352.jpg"
+events:
+ - 50 yard dash
+ - 40 foot swimming
+organizer: Gibson
+interesting_things:
+ - some stuff
+ - more stuff
+attendees:
+ - Lee family
+ - Lloyd family
+description:
+ The 2019 Verde Ridge Neighborhood Olympics was the first neighborhood olympic event.
+ Since this was the first Olympics in the neighborhood, all winning times and distances were new records.
 ---
-
-The 2019 Verde Ridge Neighborhood Olympics was the first neighborhood olympic event.
-The event was organized by Gibson, and featured the following events:
-
-<ul class="list-group">
-  <li class="list-group-item">50 yard dash</li>
-  <li class="list-group-item">40 foot swimming</li>
-  <li class="list-group-item">More</li>
-</ul>
-
-Several interesting things happened.
-
-Some families attended.
-
-Since this was the first Olympics in the neighborhood, all winning times and distances were new records.
