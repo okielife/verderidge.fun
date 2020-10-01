@@ -1,18 +1,22 @@
 [
   {
-    "event": "50m",
-    "current_olympic_record": "8:30",
-    "current_olympic_record_event_id": "Olympics2019",
-    "current_neighborhood_record": "8:24",
-    "current_neighborhood_record_event_id": "Olympics2019",
-    "past_records": [ ]
+    "event_name": "50m Dash",
+    "event_category": "Track",
+    "results_units": "seconds",
+    "age_group": "Kindergarten and under",
+    "olympic_record": "11.44s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "11.44s",
+    "neighborhood_record_event_id": "Olympics2019"
   },
   {
-    "event": "100m",
-    "current_olympic_record": "17:32",
-    "current_olympic_record_event_id": "Olympics2019",
-    "current_neighborhood_record": "17:34",
-    "current_neighborhood_record_event_id": "Olympics2019",
-    "past_records": [ ]
+    "event_name": "40ft Free",
+    "event_category": "Swimming",
+    "results_units": "seconds",
+    "age_group": "Middle",
+    "olympic_record": "9.56s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "9.56s",
+    "neighborhood_record_event_id": "Olympics2019"
   }
 ]

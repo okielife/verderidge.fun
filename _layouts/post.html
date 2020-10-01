@@ -8,7 +8,7 @@ layout: default
 
     <hr>
 
-    This competition, organized by {{ page.organizer }}, included the following events:
+    This competition included the following events:
 
     <ul class="list-group">
         {% for event in page.events %}
@@ -18,30 +18,12 @@ layout: default
 
     <hr>
 
-    Some people attended:
-    <ul class="list-group">
-        {% for attendee in page.attendees %}
-        <li class="list-group-item">{{ attendee }}</li>
-        {% endfor %}
-    </ul>
-
-    <hr>
-
-    Interesting things happened:
-    <ul class="list-group">
-        {% for thing in page.interesting_things %}
-        <li class="list-group-item">{{ thing }}</li>
-        {% endfor %}
-    </ul>
-
-    <hr>
-
     <header><h2 class="tm-blue-text tm-margin-b-30">Photo Gallery</h2></header>
     <div class="tm-gallery-container tm-gallery-1">
         {% for photo in page.photos %}
         <div class="tm-img-container tm-img-container-1">
-            <a href="/assets/images/{{ photo }}">
-                <img src="/assets/images/{{ photo }}" alt="Image" class="img-fluid tm-img-tn">
+            <a href="/images/{{ photo }}">
+                <img src="/images/{{ photo }}" alt="Image" class="img-fluid tm-img-tn">
             </a>
         </div>
         {% endfor %}
