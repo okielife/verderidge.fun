@@ -11,8 +11,11 @@ layout: default
     This competition included the following events:
 
     <ul class="list-group">
-        {% for event in page.events %}
-        <li class="list-group-item">{{ event }}</li>
+        {% for sport in page.events %}
+            <h3 class="tm-blue-text" style="margin-top: 12px;">{{ sport[0] }}</h3>
+            {% for event_name in sport[1] %}
+                <li class="list-group-item">{{ event_name }}</li>
+            {% endfor %}
         {% endfor %}
     </ul>
 

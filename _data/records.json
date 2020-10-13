@@ -10,6 +10,16 @@
     "neighborhood_record_event_id": "Olympics2019"
   },
   {
+    "event_name": "100m Dash",
+    "event_category": "Track",
+    "results_units": "seconds",
+    "age_group": "Middle",
+    "olympic_record": "16.72s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "16.72s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
     "event_name": "40ft Free",
     "event_category": "Swimming",
     "results_units": "seconds",
