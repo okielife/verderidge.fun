@@ -13,10 +13,110 @@
     "event_name": "100m Dash",
     "event_category": "Track",
     "results_units": "seconds",
+    "age_group": "Kindergarten and under",
+    "olympic_record": "21.13s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "21.13s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "100m Dash",
+    "event_category": "Track",
+    "results_units": "seconds",
+    "age_group": "Elementary",
+    "olympic_record": "20.56s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "20.56s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "100m Dash",
+    "event_category": "Track",
+    "results_units": "seconds",
     "age_group": "Middle",
     "olympic_record": "16.72s",
     "olympic_record_event_id": "Olympics2019",
     "neighborhood_record": "16.72s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "200m Dash",
+    "event_category": "Track",
+    "results_units": "seconds",
+    "age_group": "Elementary",
+    "olympic_record": "38.66s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "38.66s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "200m Dash",
+    "event_category": "Track",
+    "results_units": "seconds",
+    "age_group": "Middle",
+    "olympic_record": "27.76s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "27.76s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "400m Dash",
+    "event_category": "Track",
+    "results_units": "seconds",
+    "age_group": "Elementary",
+    "olympic_record": "1m 42.62s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "1m 42.62s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "400m Dash",
+    "event_category": "Track",
+    "results_units": "seconds",
+    "age_group": "Middle",
+    "olympic_record": "1m 20.94s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "1m 20.94s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "800m Dash",
+    "event_category": "Track",
+    "results_units": "seconds",
+    "age_group": "Middle",
+    "olympic_record": "3m 10.38s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "3m 10.38s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "18ft Free",
+    "event_category": "Swimming",
+    "results_units": "seconds",
+    "age_group": "Kindergarten and under",
+    "olympic_record": "8.72s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "8.72s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "36ft Free",
+    "event_category": "Swimming",
+    "results_units": "seconds",
+    "age_group": "Kindergarten and under",
+    "olympic_record": "16.7s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "16.7s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "40ft Free",
+    "event_category": "Swimming",
+    "results_units": "seconds",
+    "age_group": "Elementary",
+    "olympic_record": "10.63s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "10.63s",
     "neighborhood_record_event_id": "Olympics2019"
   },
   {
@@ -26,7 +126,87 @@
     "age_group": "Middle",
     "olympic_record": "9.56s",
     "olympic_record_event_id": "Olympics2019",
-    "neighborhood_record": "9.56s",
+    "neighborhood_record": "7.19s",
+    "neighborhood_record_event_id": "NRs"
+  },
+  {
+    "event_name": "80ft Free",
+    "event_category": "Swimming",
+    "results_units": "seconds",
+    "age_group": "Elementary",
+    "olympic_record": "26.59s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "26.59s",
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "80ft Free",
+    "event_category": "Swimming",
+    "results_units": "seconds",
+    "age_group": "Middle",
+    "olympic_record": "22.72s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "20.05s",
+    "neighborhood_record_event_id": "NRs"
+  },
+  {
+    "event_name": "160ft Free",
+    "event_category": "Swimming",
+    "results_units": "seconds",
+    "age_group": "Middle",
+    "olympic_record": "48.81s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "40.33s",
+    "neighborhood_record_event_id": "NRs"
+  },
+  {
+    "event_name": "Soccer Distance",
+    "event_category": "Athletics",
+    "results_units": "points",
+    "age_group": "Kindergarten and under",
+    "olympic_record": 16.0,
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": 16.0,
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "Soccer Distance",
+    "event_category": "Athletics",
+    "results_units": "points",
+    "age_group": "Elementary",
+    "olympic_record": 22.0,
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": 22.0,
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "Football Distance",
+    "event_category": "Athletics",
+    "results_units": "points",
+    "age_group": "Elementary",
+    "olympic_record": 13.0,
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": 13.0,
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "Football Distance",
+    "event_category": "Athletics",
+    "results_units": "points",
+    "age_group": "Middle",
+    "olympic_record": 23.0,
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": 23.0,
+    "neighborhood_record_event_id": "Olympics2019"
+  },
+  {
+    "event_name": "1600m Cycling",
+    "event_category": "Athletics",
+    "results_units": "seconds",
+    "age_group": "Kindergarten and under",
+    "olympic_record": "5m 38.41s",
+    "olympic_record_event_id": "Olympics2019",
+    "neighborhood_record": "5m 38.41s",
     "neighborhood_record_event_id": "Olympics2019"
   }
 ]
