@@ -20,14 +20,14 @@ layout: default
                 {% assign record_event_url = each_event.url %}
               {% endif %}
             {% endfor %}
-            <td>{{ this_record.olympic_record }} <a href="{{ record_event_url }}">({{ record_event_name }})</a></td>
+            <td>{{ this_record.olympic_record }} (<a href="{{ record_event_url }}">{{ record_event_name }}</a> - {{ this_record.olympic_record_athlete }})</td>
             {% assign record_event_name = "unknown" %}
             {% for each_event in site.posts %}
                 {% if each_event.event_id == this_record.neighborhood_record_event_id %}
                     {% assign record_event_name = each_event.title %}
                 {% endif %}
             {% endfor %}
-            <td>{{ this_record.neighborhood_record }} <a href="{{ record_event_url }}">({{ record_event_name }})</a></td>
+            <td>{{ this_record.neighborhood_record }} (<a href="{{ record_event_url }}">{{ record_event_name }}</a> - {{ this_record.neighborhood_record_athlete }})</td>
         </tr>
         {% endfor %}
     </table>

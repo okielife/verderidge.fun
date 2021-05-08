@@ -6,8 +6,10 @@
     "age_group": "Kindergarten and under",
     "olympic_record": "11.44s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Nash Damery",
     "neighborhood_record": "11.44s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Nash Damery"
   },
   {
     "event_name": "100m Dash",
@@ -16,8 +18,10 @@
     "age_group": "Kindergarten and under",
     "olympic_record": "21.13s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Nash Damery",
     "neighborhood_record": "21.13s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Nash Damery"
   },
   {
     "event_name": "100m Dash",
@@ -26,8 +30,10 @@
     "age_group": "Elementary",
     "olympic_record": "20.56s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Colt Lloyd",
     "neighborhood_record": "20.56s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Colt Lloyd"
   },
   {
     "event_name": "100m Dash",
@@ -36,8 +42,10 @@
     "age_group": "Middle",
     "olympic_record": "16.72s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Colyn Sodowsky",
     "neighborhood_record": "16.72s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Colyn Sodowsky"
   },
   {
     "event_name": "200m Dash",
@@ -46,8 +54,10 @@
     "age_group": "Elementary",
     "olympic_record": "38.66s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Colt Lloyd",
     "neighborhood_record": "38.66s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Colt Lloyd"
   },
   {
     "event_name": "200m Dash",
@@ -56,8 +66,10 @@
     "age_group": "Middle",
     "olympic_record": "27.76s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Colyn Sodowsky",
     "neighborhood_record": "27.76s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Colyn Sodowsky"
   },
   {
     "event_name": "400m Dash",
@@ -66,8 +78,10 @@
     "age_group": "Elementary",
     "olympic_record": "1m 42.62s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Daxton Lee",
     "neighborhood_record": "1m 42.62s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Daxton Lee"
   },
   {
     "event_name": "400m Dash",
@@ -76,8 +90,10 @@
     "age_group": "Middle",
     "olympic_record": "1m 20.94s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Colyn Sodowsky",
     "neighborhood_record": "1m 20.94s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Colyn Sodowsky"
   },
   {
     "event_name": "800m Dash",
@@ -86,8 +102,10 @@
     "age_group": "Middle",
     "olympic_record": "3m 10.38s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Colyn Sodowsky",
     "neighborhood_record": "3m 10.38s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Colyn Sodowsky"
   },
   {
     "event_name": "18ft Free",
@@ -96,8 +114,10 @@
     "age_group": "Kindergarten and under",
     "olympic_record": "8.72s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Nash Damery",
     "neighborhood_record": "8.72s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Nash Damery"
   },
   {
     "event_name": "36ft Free",
@@ -106,8 +126,10 @@
     "age_group": "Kindergarten and under",
     "olympic_record": "16.7s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Nash Damery",
     "neighborhood_record": "16.7s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Nash Damery"
   },
   {
     "event_name": "40ft Free",
@@ -116,8 +138,10 @@
     "age_group": "Elementary",
     "olympic_record": "10.63s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Daxton Lee",
     "neighborhood_record": "10.63s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Daxton Lee"
   },
   {
     "event_name": "40ft Free",
@@ -126,8 +150,10 @@
     "age_group": "Middle",
     "olympic_record": "9.56s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Gibson Lee",
     "neighborhood_record": "7.19s",
-    "neighborhood_record_event_id": "NRs"
+    "neighborhood_record_event_id": "NRs",
+    "neighborhood_record_athlete": "Gibson Lee"
   },
   {
     "event_name": "80ft Free",
@@ -136,8 +162,10 @@
     "age_group": "Elementary",
     "olympic_record": "26.59s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Daxton Lee",
     "neighborhood_record": "26.59s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Daxton Lee"
   },
   {
     "event_name": "80ft Free",
@@ -146,8 +174,10 @@
     "age_group": "Middle",
     "olympic_record": "22.72s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Colyn Sodowsky",
     "neighborhood_record": "20.05s",
-    "neighborhood_record_event_id": "NRs"
+    "neighborhood_record_event_id": "NRs",
+    "neighborhood_record_athlete": "Gibson Lee"
   },
   {
     "event_name": "160ft Free",
@@ -156,8 +186,10 @@
     "age_group": "Middle",
     "olympic_record": "48.81s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Colyn Sodowsky",
     "neighborhood_record": "40.33s",
-    "neighborhood_record_event_id": "NRs"
+    "neighborhood_record_event_id": "NRs",
+    "neighborhood_record_athlete": "Gibson Lee"
   },
   {
     "event_name": "Soccer Distance",
@@ -166,8 +198,10 @@
     "age_group": "Kindergarten and under",
     "olympic_record": 16.0,
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Nash Damery",
     "neighborhood_record": 16.0,
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Nash Damery"
   },
   {
     "event_name": "Soccer Distance",
@@ -176,8 +210,10 @@
     "age_group": "Elementary",
     "olympic_record": 22.0,
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Granger Wise",
     "neighborhood_record": 22.0,
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Granger Wise"
   },
   {
     "event_name": "Football Distance",
@@ -186,8 +222,10 @@
     "age_group": "Elementary",
     "olympic_record": 13.0,
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Granger Wise",
     "neighborhood_record": 13.0,
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Granger Wise"
   },
   {
     "event_name": "Football Distance",
@@ -196,8 +234,10 @@
     "age_group": "Middle",
     "olympic_record": 23.0,
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Dagon Lloyd",
     "neighborhood_record": 23.0,
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Dagon Lloyd"
   },
   {
     "event_name": "1600m Cycling",
@@ -206,7 +246,9 @@
     "age_group": "Kindergarten and under",
     "olympic_record": "5m 38.41s",
     "olympic_record_event_id": "Olympics2019",
+    "olympic_record_athlete": "Daxton Lee",
     "neighborhood_record": "5m 38.41s",
-    "neighborhood_record_event_id": "Olympics2019"
+    "neighborhood_record_event_id": "Olympics2019",
+    "neighborhood_record_athlete": "Daxton Lee"
   }
 ]
