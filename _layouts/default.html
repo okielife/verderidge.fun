@@ -1,59 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="/assets/css/templatemo-style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+        <img src="/images/main_logo.png" width="65" height="30" class="d-inline-block align-top"
+             alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/upcoming/">Upcoming Event</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/records/">Records</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">About Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main body -->
 <div class="container">
     <div class="row">
-        <div class="tm-left-right-container">
-            <!-- Left column: logo and menu -->
-            <div class="tm-blue-bg tm-left-column">
-                <div class="tm-logo-div text-xs-center">
-                    <img src="/images/main_logo.png" alt="Logo"
-                         style="width:100%;height:auto;">
-                    <h1 class="tm-site-name">{{ site.name }}</h1>
-                    <p class="site-description">{{ site.description }}</p>
-                </div>
-                <nav class="tm-main-nav">
-                    <ul class="tm-main-nav-ul">
-                        <li class="tm-nav-item">
-                            <a href="/" class="tm-nav-item-link"><b>Home</b></a>
-                        </li>
-                        <li class="tm-nav-item">
-                            <a href="/upcoming/" class="tm-nav-item-link"><b>Next Upcoming Event</b></a>
-                        </li>
-                        <li class="tm-nav-item">
-                            <a href="/records/" class="tm-nav-item-link"><b>Records</b></a>
-                        </li>
-                        <li class="tm-nav-item">
-                            <a href="/about/" class="tm-nav-item-link"><b>About Us</b></a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- Right column: content -->
-            <div class="tm-right-column">
-                <figure>
-                    <img src="/images/banner.jpg" alt="Header image" class="img-fluid">
-                </figure>
-                <div class="tm-content-div">
-                    {{ content }}
-                </div>
+        <figure>
+            <img src="/images/banner.jpg" alt="Header image" class="img-fluid">
+        </figure>
+        <div class="col-md-10">
+            <div class="tm-content-div">
+                {{ content }}
             </div>
         </div>
     </div>
 </div>
+
 <!-- Javascripts -->
-<script src="/assets/js/jquery-1.11.3.min.js"></script>
-<script src="/assets/js/jquery.magnific-popup.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+        integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
 <script>
     $(document).ready(function () {
         $('.tm-gallery-1').magnificPopup({
@@ -63,5 +75,6 @@
         });
     });
 </script>
+
 </body>
 </html>
