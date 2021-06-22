@@ -7,6 +7,9 @@ description: Covering fun neighborhood activities in Verde Ridge, including Neig
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 url: "https://verderidge.fun"
 
+# allow future posts to show up
+future: true
+
 permalink: /:title/
 
 # Jekyll 3 now only supports Kramdown for Markdown
