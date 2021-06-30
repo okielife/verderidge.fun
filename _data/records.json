@@ -148,11 +148,11 @@
     "event_category": "Swimming",
     "results_units": "seconds",
     "age_group": "Middle",
-    "olympic_record": "9.56s",
+    "olympic_record": "7.65s",
     "olympic_record_event_id": "Olympics2019",
     "olympic_record_athlete": "Gibson Lee",
     "neighborhood_record": "7.19s",
-    "neighborhood_record_event_id": "NRs",
+    "neighborhood_record_event_id": "2020session",
     "neighborhood_record_athlete": "Gibson Lee"
   },
   {
@@ -175,8 +175,8 @@
     "olympic_record": "22.72s",
     "olympic_record_event_id": "Olympics2019",
     "olympic_record_athlete": "Colyn Sodowsky",
-    "neighborhood_record": "20.05s",
-    "neighborhood_record_event_id": "NRs",
+    "neighborhood_record": "18.82s",
+    "neighborhood_record_event_id": "2021session",
     "neighborhood_record_athlete": "Gibson Lee"
   },
   {
@@ -188,7 +188,7 @@
     "olympic_record_event_id": "Olympics2019",
     "olympic_record_athlete": "Colyn Sodowsky",
     "neighborhood_record": "40.33s",
-    "neighborhood_record_event_id": "NRs",
+    "neighborhood_record_event_id": "2020session",
     "neighborhood_record_athlete": "Gibson Lee"
   },
   {
