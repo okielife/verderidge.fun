@@ -288,6 +288,30 @@
     "neighborhood_record_athlete": "Jacob Lablue"
   },
   {
+    "event_name": "Football Accuracy",
+    "event_category": "Athletics",
+    "results_units": "feet",
+    "age_group": "Elementary",
+    "olympic_record": 0.3,
+    "olympic_record_event_id": "Olympics2021",
+    "olympic_record_athlete": "Grace Lablue",
+    "neighborhood_record": 0.3,
+    "neighborhood_record_event_id": "Olympics2021",
+    "neighborhood_record_athlete": "Grace Lablue"
+  },
+  {
+    "event_name": "Football Accuracy",
+    "event_category": "Athletics",
+    "results_units": "feet",
+    "age_group": "Middle",
+    "olympic_record": 0.5,
+    "olympic_record_event_id": "Olympics2021",
+    "olympic_record_athlete": "Gibson Lee",
+    "neighborhood_record": 0.5,
+    "neighborhood_record_event_id": "Olympics2021",
+    "neighborhood_record_athlete": "Gibson Lee"
+  },
+  {
     "event_name": "150m Cycling",
     "event_category": "Athletics",
     "results_units": "seconds",
